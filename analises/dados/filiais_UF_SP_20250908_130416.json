@@ -306,7 +306,7 @@
         "REDE_LOJAS": "1     ",
         "AREA_M2": 0,
         "CEP": "06454000 ",
-        "ENDERECO": "ALAMEDA RIO NEGRO                                                                              ",
+        "ENDERECO": "AL RIO NEGRO                                                                              ",
         "BAIRRO": "ALPHAVILLE INDUSTRIAL    ",
         "CIDADE": "BARUERI                            ",
         "UF": "SP"
@@ -319,7 +319,7 @@
         "REDE_LOJAS": "1     ",
         "AREA_M2": 157,
         "CEP": "06454000",
-        "ENDERECO": "ALAMEDA RIO NEGRO",
+        "ENDERECO": "AL RIO NEGRO",
         "BAIRRO": "ALPHAVILLE INDUSTRIAL",
         "CIDADE": "BARUERI",
         "UF": "SP"
@@ -332,7 +332,7 @@
         "REDE_LOJAS": "1     ",
         "AREA_M2": 157,
         "CEP": "06454000",
-        "ENDERECO": "ALAMEDA RIO NEGRO",
+        "ENDERECO": "AL RIO NEGRO",
         "BAIRRO": "ALPHAVILLE INDUSTRIAL",
         "CIDADE": "BARUERI",
         "UF": "SP"
