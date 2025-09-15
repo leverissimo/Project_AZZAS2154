@@ -2,7 +2,7 @@ import json
 import folium
 from geopy.geocoders import Nominatim
 
-path = "analises/dados/filiais_UF_SP_20250904_181021.json"
+path = "analises/dados/filiais_UF_SP.json"
 with open(path, "r", encoding="utf-8") as f:
     dados = json.load(f)
 
@@ -25,6 +25,7 @@ mapa = folium.Map(location=[-23.55, -46.63], zoom_start=11)
 
 for filial in lista_filiais:
     endereco_completo = f"{filial['ENDERECO']}, {filial['BAIRRO']}, {filial['CIDADE']}, {filial['UF']}, Brasil"
+    print(endereco_completo)
     try:
         local = geolocator.geocode(endereco_completo)
         if local:
