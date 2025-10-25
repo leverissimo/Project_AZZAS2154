@@ -22,8 +22,6 @@ Desenvolver um sistema analítico capaz de:
 
 ## Estrutura do Projeto
 
-# 🧱 Estrutura Final do Projeto
-
 ```arduino
 Project_AZZAS2154/
 │
