@@ -1,0 +1,14 @@
+# Dados e credenciais
+data/
+results/
+bd/*.json
+
+# Cache e metadados
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+desktop.ini
+
+# Ambiente
+.env
+.venv/
