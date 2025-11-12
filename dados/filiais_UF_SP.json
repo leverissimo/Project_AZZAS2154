@@ -1,5 +1,18 @@
 [
     {
+        "FILIAL": "CENTRO DE DISTRIBUICAO",
+        "COD_FILIAL": "000000",
+        "TIPO_FILIAL": "CENTRO DISTRIBUICAO",
+        "REGIAO": "SUDESTE",
+        "REDE_LOJAS": "1     ",
+        "AREA_M2":"64378",
+        "CEP": "21535-510",
+        "ENDERECO": "Rua Cel. Phidias Távora. 360",
+        "BAIRRO": "Pavuna",
+        "CIDADE": "RIO DE JANEIRO",
+        "UF": "RJ"
+    },
+    {
         "FILIAL": "ANIMALE HIGIENOPOLIS CM",
         "COD_FILIAL": "190073",
         "TIPO_FILIAL": "LOJA VAREJO              ",
