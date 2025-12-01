@@ -1,5 +1,11 @@
-Filiais, Tipo, Est_disp, Alvo
-Animale_MG, Filial, 10, 5
-Animale_RJ, Filial, 0, 2
-Animale_SP, Filial, 1, 3
-CENTRO DE DISTRIBUICAO, CD, 150, 0
+Filial,Tipo,Est_disp,Alvo
+Filial_ES,Filial,0,9
+Filial_AL,Filial,7,7
+Filial_AM,Filial,11,6
+Filial_RO,Filial,13,5
+Filial_TO,Filial,19,8
+Filial_PB,Filial,7,9
+Filial_SE,Filial,9,10
+Filial_RR,Filial,6,5
+Filial_AP,Filial,16,8
+Filial_MG,Filial,8,7
