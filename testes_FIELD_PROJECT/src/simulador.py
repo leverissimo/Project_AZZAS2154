@@ -19,7 +19,7 @@ def main(data0, dias, caminho_distancias, caminho_bd_query):
 
     historico_envios = []
     snapshots = []
-    leadtime = df_distancias.loc[(df_distancias['Filial_A']==A) & (df_distancias['Filial_B']==B),'LeadTime'].values[0]
+    #leadtime = df_distancias.loc[(df_distancias['Filial_A']==A) & (df_distancias['Filial_B']==B),'LeadTime'].values[0]
 
     for dia in range(1, dias+1):
         print(f"Rodando dia {dia}")
@@ -59,7 +59,7 @@ def main(data0, dias, caminho_distancias, caminho_bd_query):
             venda = simular_venda_poisson(row.get('VELOCIDADE_VENDA',0),row.get('EST_DISP',0))
             df.at[idx,'EST_DISP'] = max(0, df.at[idx,'EST_DISP'] - venda)
         # 6) atualizar alvo simples
-        df = atualizar_alvo(df, leadtime_por_filial)
+        #df = atualizar_alvo(df, leadtime_por_filial)
         # snapshot do dia
         snapshots.append((dia, df.copy()))
 
